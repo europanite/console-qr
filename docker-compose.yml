@@ -1,9 +1,9 @@
 services:
   app:
-    build: .
+    build: ./service
     command: ["examples/hello.txt"]
 
   tests:
-    build: .
+    build: ./service
     entrypoint: ["python", "-m", "pytest"]
     command: ["-q"]
