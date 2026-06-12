@@ -9,5 +9,5 @@ COPY examples ./examples
 
 RUN pip install --no-cache-dir -e ".[dev]"
 
-ENTRYPOINT ["console-text-qr"]
+ENTRYPOINT ["console-qr"]
 CMD ["examples/hello.txt"]

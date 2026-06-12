@@ -81,7 +81,7 @@ def render_text_as_qr(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="console-text-qr",
+        prog="console-qr",
         description="Print the contents of a text file as a QR code in the console.",
     )
     parser.add_argument("file", help="Path to the text file to encode")

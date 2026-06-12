@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "console-text-qr"
+name = "console-qr"
 version = "0.1.0"
 description = "Print a text file as a QR code in the console."
 readme = "README.md"
@@ -22,7 +22,7 @@ dev = [
 ]
 
 [project.scripts]
-console-text-qr = "console_text_qr.cli:main"
+console-qr = "console_text_qr.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

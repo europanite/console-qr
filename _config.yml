@@ -1,0 +1,10 @@
+title: "console-qr"
+description: "console-qr"
+baseurl: "/console-qr"
+url: "https://europanite.github.io"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+highlighter: rouge

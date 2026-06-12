@@ -1,6 +1,6 @@
-# console-text-qr
+# [console-qr](https://github.com/europanite/console-qr "console-qr")
 
-`console-text-qr` is a small Python CLI that reads a text file from an argument and prints its contents as a QR code directly in the console.
+`console-qr` is a small Python CLI that reads a text file from an argument and prints its contents as a QR code directly in the console.
 
 It is useful when you want to pass a short text value, URL, token, or message from a terminal to a smartphone without creating an image file.
 
@@ -47,25 +47,25 @@ python -m pip install -e ".[dev]"
 Print the example text file as a QR code:
 
 ```bash
-console-text-qr examples/hello.txt
+console-qr examples/hello.txt
 ```
 
 Use a different encoding:
 
 ```bash
-console-text-qr --encoding shift_jis message.txt
+console-qr --encoding shift_jis message.txt
 ```
 
 Use stronger error correction:
 
 ```bash
-console-text-qr --error-correction H message.txt
+console-qr --error-correction H message.txt
 ```
 
 Invert the terminal blocks:
 
 ```bash
-console-text-qr --invert message.txt
+console-qr --invert message.txt
 ```
 
 ## Notes
