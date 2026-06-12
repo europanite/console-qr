@@ -75,5 +75,3 @@ console-qr --invert message.txt
 
 QR codes have a maximum capacity. This tool is intended for short text, URLs, small JSON snippets, or small configuration values. For long files, compress or host the file elsewhere and encode a URL instead.
 
-The script prints the QR code as text only. It does not create PNG, SVG, or other image files.
-
