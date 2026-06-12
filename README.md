@@ -1,5 +1,8 @@
 # [console-qr](https://github.com/europanite/console-qr "console-qr")
 
+[![CI](https://github.com/europanite/console-qr/actions/workflows/ci.yml/badge.svg)](https://github.com/europanite/console-qr/actions/workflows/ci.yml)
+[![pages-build-deployment](https://github.com/europanite/console-qr/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/europanite/console-qr/actions/workflows/pages/pages-build-deployment)
+
 `console-qr` is a small Python CLI that reads a text file from an argument and prints its contents as a QR code directly in the console.
 
 It is useful when you want to pass a short text value, URL, token, or message from a terminal to a smartphone without creating an image file.
